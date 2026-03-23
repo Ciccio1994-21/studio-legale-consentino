@@ -48,7 +48,6 @@
 </head>
 <body class="bg-slate-50 text-slate-900">
 
-    <!-- Navigazione -->
     <nav class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20 items-center">
@@ -61,14 +60,14 @@
                         <span class="block text-[9px] sm:text-[10px] uppercase tracking-[0.2em] text-accent mt-1 font-bold">Studio Legale</span>
                     </div>
                 </div>
-                <!-- Navigazione Desktop -->
-                <div class="hidden md:flex space-x-8 items-center text-[13px] font-bold tracking-wider">
+                <div class="hidden md:flex space-x-6 items-center text-[11px] font-bold tracking-wider">
                     <a href="#home" class="nav-link text-slate-700 hover:text-slate-900 transition uppercase">Home</a>
                     <a href="#studio" class="nav-link text-slate-700 hover:text-slate-900 transition uppercase">Lo Studio</a>
-                    <a href="#servizi" class="nav-link text-slate-700 hover:text-slate-900 transition uppercase">Servizi & Domiciliazioni</a>
-                    <a href="#contatti" class="px-5 py-2.5 gold-gradient text-white rounded text-sm hover:opacity-90 transition shadow-md uppercase">Contatti</a>
+                    <a href="#team" class="nav-link text-slate-700 hover:text-slate-900 transition uppercase">Collaboratori</a>
+                    <a href="#servizi" class="nav-link text-slate-700 hover:text-slate-900 transition uppercase">Servizi</a>
+                    <a href="#successi" class="nav-link text-slate-700 hover:text-slate-900 transition uppercase">Vittorie</a>
+                    <a href="#contatti" class="px-4 py-2 gold-gradient text-white rounded text-xs hover:opacity-90 transition shadow-md uppercase">Contatti</a>
                 </div>
-                <!-- Mobile Call Icon -->
                 <div class="md:hidden">
                     <a href="tel:3490951909" class="w-10 h-10 bg-slate-100 flex items-center justify-center rounded-full text-accent border border-slate-200">
                         <i class="fas fa-phone"></i>
@@ -78,7 +77,6 @@
         </div>
     </nav>
 
-    <!-- Hero -->
     <header id="home" class="relative min-h-[90vh] flex items-center justify-center text-white overflow-hidden pt-20">
         <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center"></div>
         <div class="absolute inset-0 hero-overlay"></div>
@@ -88,85 +86,133 @@
             <p class="text-base md:text-xl text-slate-300 mb-8 sm:mb-10 max-w-2xl mx-auto font-light leading-relaxed">
                 Lo Studio Legale Consentino a Marsala offre assistenza d'eccellenza in materia civile e penale.
             </p>
-            <!-- Pulsanti ottimizzati per Mobile -->
             <div class="flex flex-col sm:flex-row gap-4 justify-center items-center px-4 sm:px-0">
-                <a href="#contatti" class="w-full sm:w-auto px-10 py-4 gold-gradient text-white font-bold rounded shadow-xl hover:scale-105 transition-transform text-center uppercase text-sm tracking-widest">
-                    Contattaci
-                </a>
-                <a href="#servizi" class="w-full sm:w-auto px-10 py-4 border border-white/30 backdrop-blur-sm text-white font-bold rounded hover:bg-white/10 transition text-center uppercase text-sm tracking-widest">
-                    Domiciliazioni
-                </a>
+                <a href="#contatti" class="w-full sm:w-auto px-10 py-4 gold-gradient text-white font-bold rounded shadow-xl hover:scale-105 transition-transform text-center uppercase text-sm tracking-widest">Contattaci</a>
+                <a href="#servizi" class="w-full sm:w-auto px-10 py-4 border border-white/30 backdrop-blur-sm text-white font-bold rounded hover:bg-white/10 transition text-center uppercase text-sm tracking-widest">Domiciliazioni</a>
             </div>
         </div>
     </header>
 
-    <!-- Studio -->
     <section id="studio" class="py-16 sm:py-24 bg-white">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-12 sm:gap-16 items-center">
                 <div class="order-2 md:order-1 text-center md:text-left">
-                    <h3 class="text-accent font-bold tracking-widest uppercase text-xs mb-4">L'Avvocato</h3>
-                    <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 font-serif">Avv. Antonio Consentino</h2>
-                    <p class="text-slate-600 mb-6 leading-relaxed italic">
-                        "Opero nel solco della tradizione forense tracciata da mio padre, garantendo continuità e dedizione professionale sin dal 1988."
-                    </p>
-                    <p class="text-slate-600 mb-8 leading-relaxed">
-                        Già Presidente del Rotary Club di Marsala (2011-2012), l'Avv. Consentino unisce l'impegno professionale a quello sociale, garantendo massima trasparenza e reperibilità.
-                    </p>
-                    <div class="p-6 bg-slate-50 rounded-xl border-l-4 border-accent shadow-sm flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
-                        <i class="fas fa-gavel text-accent text-2xl"></i>
-                        <p class="font-bold text-slate-800 text-sm sm:text-base">Patrocinante in Cassazione e Giurisdizioni Superiori</p>
-                    </div>
+                    <h3 class="text-accent font-bold tracking-widest uppercase text-xs mb-4">Il Titolare</h3>
+                    <h2 class="text-3xl sm:text-4xl font-bold text-slate-900 mb-6 font-serif text-slate-900">Avv. Antonio Consentino</h2>
+                    <p class="text-slate-600 mb-6 leading-relaxed italic">"Opero nel solco della tradizione forense tracciata da mio padre, garantendo continuità e dedizione professionale sin dal 1988."</p>
+                    <p class="text-slate-600 mb-8 leading-relaxed text-slate-900">Già Presidente del Rotary Club di Marsala (2011-2012), l'Avv. Consentino unisce l'impegno professionale a quello sociale, garantendo massima trasparenza e reperibilità. Patrocinante in Cassazione.</p>
                 </div>
                 <div class="order-1 md:order-2 flex justify-center">
                     <div class="w-full max-w-[280px] sm:max-w-md aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl border-[8px] sm:border-[12px] border-white relative z-10 bg-slate-100">
-                        <img 
-                            src="Consentino.jpeg" 
-                            alt="Avvocato Antonio Consentino" 
-                            class="w-full h-full object-cover object-top"
-                            onerror="this.src='https://via.placeholder.com/600x800?text=Avv.+Consentino'"
-                        >
+                        <img src="Consentino.jpeg" alt="Avvocato Antonio Consentino" class="w-full h-full object-cover object-top" onerror="this.src='https://via.placeholder.com/600x800?text=Avv.+Consentino'">
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Servizi -->
-    <section id="servizi" class="py-16 sm:py-24 bg-slate-900 text-white">
+    <section id="team" class="py-16 sm:py-24 bg-slate-50">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
-            <h2 class="text-3xl font-bold font-serif mb-10 sm:12 text-center">Ambiti di Attività</h2>
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
-                <div class="p-6 sm:p-8 bg-slate-800/50 border border-slate-700 rounded-xl text-center sm:text-left">
-                    <i class="fas fa-briefcase text-accent text-2xl mb-4"></i>
-                    <h3 class="font-bold mb-2">Diritto del Lavoro</h3>
-                    <p class="text-slate-400 text-sm">Assistenza completa in controversie lavorative.</p>
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-slate-900 mb-4">I Collaboratori</h2>
+                <div class="w-20 h-1 gold-gradient mx-auto"></div>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8 lg:gap-12">
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col sm:flex-row gap-6 items-center">
+                    <div class="w-32 h-32 flex-shrink-0 rounded-full overflow-hidden border-4 border-slate-50 shadow-md">
+                        <img src="lellaingianni.png" alt="Avv. Lella Ingianni" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/200?text=Avv.+Ingianni'">
+                    </div>
+                    <div class="text-center sm:text-left">
+                        <h4 class="text-xl font-bold font-serif text-slate-900">Avv. Lella Ingianni</h4>
+                        <p class="text-accent text-xs font-bold uppercase tracking-widest mb-3">Civile, Penale & Immobiliare</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Esperta in esecuzioni immobiliari presso il Tribunale di Marsala, si occupa di controversie civili e assistenza in ambito penale e immobiliare.</p>
+                    </div>
                 </div>
-                <div class="p-6 sm:p-8 bg-slate-800/50 border border-slate-700 rounded-xl text-center sm:text-left">
-                    <i class="fas fa-shield-alt text-accent text-2xl mb-4"></i>
-                    <h3 class="font-bold mb-2">Diritto Penale</h3>
-                    <p class="text-slate-400 text-sm">Difesa tecnica e assistenza processuale.</p>
-                </div>
-                <div class="p-6 sm:p-8 bg-slate-800/50 border border-slate-700 rounded-xl text-center sm:text-left">
-                    <i class="fas fa-landmark text-accent text-2xl mb-4"></i>
-                    <h3 class="font-bold mb-2">Diritto Civile</h3>
-                    <p class="text-slate-400 text-sm">Contrattualistica, risarcimenti e famiglia.</p>
-                </div>
-                <div class="p-6 sm:p-8 bg-slate-800/50 border border-slate-700 rounded-xl text-center sm:text-left">
-                    <i class="fas fa-map-marker-alt text-accent text-2xl mb-4"></i>
-                    <h3 class="font-bold mb-2">Domiciliazioni</h3>
-                    <p class="text-slate-400 text-sm">Servizi procuratori presso il Tribunale di Marsala.</p>
+
+                <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col sm:flex-row gap-6 items-center">
+                    <div class="w-32 h-32 flex-shrink-0 rounded-full overflow-hidden border-4 border-slate-50 shadow-md">
+                        <img src="fabriziorizzo.jpg" alt="Avv. Fabrizio Rizzo" class="w-full h-full object-cover" onerror="this.src='https://via.placeholder.com/200?text=Avv.+Rizzo'">
+                    </div>
+                    <div class="text-center sm:text-left">
+                        <h4 class="text-xl font-bold font-serif text-slate-900">Avv. Fabrizio Rizzo</h4>
+                        <p class="text-accent text-xs font-bold uppercase tracking-widest mb-3">Amministrativo & Civile</p>
+                        <p class="text-slate-600 text-sm leading-relaxed">Specializzato in rapporti con la Pubblica Amministrazione e diritto civile, opera prevalentemente nel distretto di Pantelleria e Trapani.</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contatti -->
-    <section id="contatti" class="py-16 sm:py-24 bg-white">
+    <section id="servizi" class="py-16 sm:py-24 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold font-serif mb-12">Ambiti di Attività</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="p-8 bg-slate-800/50 border border-slate-700 rounded-xl">
+                    <i class="fas fa-briefcase text-accent text-2xl mb-4"></i>
+                    <h3 class="font-bold mb-2">Diritto del Lavoro</h3>
+                    <p class="text-slate-400 text-sm">Controversie lavorative e previdenza.</p>
+                </div>
+                <div class="p-8 bg-slate-800/50 border border-slate-700 rounded-xl">
+                    <i class="fas fa-shield-alt text-accent text-2xl mb-4"></i>
+                    <h3 class="font-bold mb-2">Diritto Penale</h3>
+                    <p class="text-slate-400 text-sm">Difesa tecnica e assistenza giudiziale.</p>
+                </div>
+                <div class="p-8 bg-slate-800/50 border border-slate-700 rounded-xl">
+                    <i class="fas fa-landmark text-accent text-2xl mb-4"></i>
+                    <h3 class="font-bold mb-2">Diritto Civile</h3>
+                    <p class="text-slate-400 text-sm">Famiglia, contratti e risarcimenti.</p>
+                </div>
+                <div class="p-8 bg-slate-800/50 border border-slate-700 rounded-xl">
+                    <i class="fas fa-map-marker-alt text-accent text-2xl mb-4"></i>
+                    <h3 class="font-bold mb-2">Domiciliazioni</h3>
+                    <p class="text-slate-400 text-sm">Presso il Tribunale di Marsala.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="successi" class="py-16 sm:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl sm:text-4xl font-bold font-serif text-slate-900 mb-4">Casi di Successo</h2>
+                <p class="text-slate-600">Alcune delle vittorie legali documentate dello Studio Consentino</p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <a href="https://www.tp24.it/2023/02/01/giudiziaria/dipendente-vince-causa-contro-la-societa-che-gestisce-il-bar-dell-aeroporto-di-pantelleria-nbsp/186397" target="_blank" class="group bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-accent transition-all hover:shadow-lg">
+                    <i class="fas fa-trophy text-accent mb-4 block text-xl"></i>
+                    <h4 class="font-bold text-slate-900 mb-2 group-hover:text-accent transition-colors">Diritto del Lavoro</h4>
+                    <p class="text-xs text-slate-600">Vittoria contro la società di gestione del bar dell'aeroporto di Pantelleria.</p>
+                    <span class="text-[10px] uppercase font-bold text-accent mt-4 block">Leggi l'articolo →</span>
+                </a>
+                <a href="https://www.ilgiornaledipantelleria.it/pantelleria-nuda-smascherata-risarcimento-per-30-000-per-lesioni-gravi-ai-danni-di-angela-siragusa/" target="_blank" class="group bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-accent transition-all hover:shadow-lg">
+                    <i class="fas fa-hand-holding-medical text-accent mb-4 block text-xl"></i>
+                    <h4 class="font-bold text-slate-900 mb-2 group-hover:text-accent transition-colors">Risarcimento Danni</h4>
+                    <p class="text-xs text-slate-600">Ottenuto risarcimento di 30.000€ per lesioni gravi a Pantelleria.</p>
+                    <span class="text-[10px] uppercase font-bold text-accent mt-4 block">Leggi l'articolo →</span>
+                </a>
+                <a href="https://www.tp24.it/2023/05/21/giudiziaria/diffama-l-ex-sindaco-di-pantelleria-giuseppe-sechi-condannato-anche-in-appello/190584" target="_blank" class="group bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-accent transition-all hover:shadow-lg">
+                    <i class="fas fa-gavel text-accent mb-4 block text-xl"></i>
+                    <h4 class="font-bold text-slate-900 mb-2 group-hover:text-accent transition-colors">Diritto Penale</h4>
+                    <p class="text-xs text-slate-600">Condanna per diffamazione ai danni dell'ex Sindaco di Pantelleria.</p>
+                    <span class="text-[10px] uppercase font-bold text-accent mt-4 block">Leggi l'articolo →</span>
+                </a>
+                <a href="https://www.tp24.it/2019/09/27/sanita/medico-alcamo-condannato-pagare-danni-paziente/139871" target="_blank" class="group bg-slate-50 p-6 rounded-xl border border-slate-200 hover:border-accent transition-all hover:shadow-lg">
+                    <i class="fas fa-user-md text-accent mb-4 block text-xl"></i>
+                    <h4 class="font-bold text-slate-900 mb-2 group-hover:text-accent transition-colors">Colpa Medica</h4>
+                    <p class="text-xs text-slate-600">Condanna al risarcimento danni per colpa medica nei confronti di un medico di Alcamo.</p>
+                    <span class="text-[10px] uppercase font-bold text-accent mt-4 block">Leggi l'articolo →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contatti" class="py-16 sm:py-24 bg-slate-50">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid md:grid-cols-2 gap-12 sm:gap-16">
                 <div>
-                    <h2 class="text-3xl font-bold font-serif mb-6">Contatti</h2>
+                    <h2 class="text-3xl font-bold font-serif mb-6 text-slate-900">Contatti</h2>
                     <p class="text-slate-600 mb-8 text-lg">Riceviamo presso lo studio di Marsala, preferibilmente su appuntamento.</p>
                     <div class="space-y-6">
                         <div class="flex items-start gap-4">
@@ -179,22 +225,18 @@
                         </div>
                     </div>
                 </div>
-                <div class="bg-slate-50 p-6 sm:p-10 rounded-2xl border border-slate-200 shadow-sm">
-                    <h3 class="font-bold mb-6 text-center text-slate-900 uppercase tracking-widest text-sm">Invia un messaggio</h3>
+                <div class="bg-white p-6 sm:p-10 rounded-2xl border border-slate-200 shadow-sm">
                     <form action="https://formspree.io/f/TUAMAIL" method="POST" class="space-y-4">
                         <input type="text" name="nome" placeholder="Nome" required class="w-full p-4 border rounded-xl outline-none focus:ring-2 focus:ring-accent bg-white">
                         <input type="email" name="email" placeholder="Email" required class="w-full p-4 border rounded-xl outline-none focus:ring-2 focus:ring-accent bg-white">
                         <textarea name="messaggio" rows="4" placeholder="Come possiamo aiutarla?" required class="w-full p-4 border rounded-xl outline-none focus:ring-2 focus:ring-accent bg-white"></textarea>
-                        <button type="submit" class="w-full py-4 gold-gradient text-white font-bold rounded-xl uppercase tracking-widest text-sm shadow-lg active:scale-95 transition-transform">
-                            Invia Richiesta
-                        </button>
+                        <button type="submit" class="w-full py-4 gold-gradient text-white font-bold rounded-xl uppercase tracking-widest text-sm shadow-lg active:scale-95 transition-transform">Invia Richiesta</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-slate-900 py-12 text-center text-white">
         <div class="max-w-7xl mx-auto px-6">
             <p class="font-serif text-xl mb-2 italic text-accent">Studio Legale Consentino</p>
